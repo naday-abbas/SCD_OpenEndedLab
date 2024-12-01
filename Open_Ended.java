@@ -51,9 +51,9 @@ public class Open_Ended {
         }, "Thread");
 
         // Starting the threads
-        thread1.start();  // Thread1
-        thread2.start();  // Thread2
-        thread3.start();  // Thread3
+        thread1.start();  
+        thread2.start();  
+        thread3.start();  
 
         // Join threads to ensure main thread waits for their completion
         try {
